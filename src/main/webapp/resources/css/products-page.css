@@ -1,0 +1,46 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+}
+
+.account{
+    margin-left: 20rem;
+}
+
+.page-button{
+    border: none;
+    margin: 1rem;
+    background-color: transparent;
+    color:black;
+}
+.page-button:hover li form input{
+    background-color: #3B71CA;
+    color: white;   
+}
+
+.page-button input[type="submit"]:hover {
+        color: white;  /* Màu chữ khi hover */
+}
+
+.list-group-item:hover .btn {
+        color: #FFFFFF;  /* Thay đổi màu chữ của input khi hover vào li */
+    }
+
+.list-group-item:hover {
+    background-color: #3B71CA;  /* Thay đổi màu nền của input khi hover vào li */
+}
+
+.title-container{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.field-container{
+    display: block;
+}

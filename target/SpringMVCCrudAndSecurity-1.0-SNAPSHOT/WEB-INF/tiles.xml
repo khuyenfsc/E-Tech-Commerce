@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC
+   "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definitions name="base" template="/WEB-INF/layout/layout.jsp">
+        <put-attribute name="boostrap-css" value="/WEB-INF/layout/boostrap-css.jsp" />
+        <put-attribute name="noscript" value="/WEB-INF/layout/no-js.jsp" />
+        <put-attribute name="navbar" value="/WEB-INF/layout/navbar.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="boostrap-js" value="" />
+    </definitions>
+    <definitions name="home" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/" />
+    </definitions>
+</tiles-definitions>

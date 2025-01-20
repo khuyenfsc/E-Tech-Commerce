@@ -1,0 +1,14 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+}
+
+.account{
+    margin-left: 20rem;
+}
